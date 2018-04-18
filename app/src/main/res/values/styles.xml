@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppbarTitleStyle">
+
+        <item name="android:textSize">@dimen/TextSize20sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="CheckPermissionText">
+
+        <item name="android:textSize">@dimen/TextSize16sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:padding">@dimen/Dimen8dp</item>
+
+    </style>
+
+    <style name="MyCardViewStyle" >
+        <item name="android:layout_marginTop">@dimen/Dimen8dp</item>
+        <item name="android:layout_marginBottom">@dimen/Dimen8dp</item>
+        <item name="android:layout_marginLeft">@dimen/Dimen4dp</item>
+        <item name="android:layout_marginRight">@dimen/Dimen4dp</item>
+    </style>
+
+    <style name="FragmentTextStyle">
+
+        <item name="android:textSize">@dimen/TextSize20sp</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/primary_text</item>
+
+    </style>
+
+    <style name="RitualTitleStyle">
+
+        <item name="android:textSize">@dimen/TextSize20sp</item>
+        <item name="android:text">@string/ritual_title</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:fontFamily">@font/roboto_slab</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/Dimen8dp</item>
+
+    </style>
+
+
+</resources>
